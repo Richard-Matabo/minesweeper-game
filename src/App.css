@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Board component styles */
+.board {
+  display: inline-block;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.game-over {
+  font-size: 24px;
+  color: red;
+  margin-top: 10px;
+}
+
+/* Instructions component styles */
+.instructions {
+  margin-top: 20px;
+}
+
+.instructions h2 {
+  margin-bottom: 10px;
+}
+
+/* Game Help component styles */
+.game-help {
+  margin-top: 10px;
+  border: 1px solid #999;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Button styles */
+button{
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
